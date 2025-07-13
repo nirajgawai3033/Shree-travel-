@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shree Travels</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff7f0;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #f26522;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2.5em;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px #000;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      color: #f26522;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #f26522;
+      padding-bottom: 5px;
+    }
+    .contact p, .contact a {
+      font-size: 1.1em;
+    }
+    .contact a {
+      color: #f26522;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.95em;
+    }
+    .owner-info {
+      margin-top: 10px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shree Travels</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#packages">Packages</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <div class="hero" id="home">
+    Welcome to Shree Travels
+  </div>
+
+  <div class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="card-container">
+      <div class="card">✈️ Flight Booking</div>
+      <div class="card">🚆 Train Tickets</div>
+      <div class="card">🏨 Hotel Reservations</div>
+      <div class="card">🌍 Domestic & International Tours</div>
+      <div class="card">🛂 Visa & Passport Assistance</div>
+    </div>
+  </div>
+
+  <div class="section" id="packages">
+    <h2>Popular Tour Packages</h2>
+    <div class="card-container">
+      <div class="card">🙏 Shirdi Darshan - ₹2999 (1N/2D)</div>
+      <div class="card">🕉️ Pandharpur Darshan - ₹2499 (1N/1D)</div>
+      <div class="card">🛕 Ayodhya-Kashi-Prayagraj - ₹11999 (5N/6D)</div>
+      <div class="card">🗻 Chardham Yatra - ₹27999 (9N/10D)</div>
+      <div class="card">🌴 Goa Special - ₹5999 (2N/3D)</div>
+      <div class="card">🏔️ Manali-Shimla - ₹10999 (4N/5D)</div>
+      <div class="card">🚣 Kerala Backwaters - ₹12999 (4N/5D)</div>
+      <div class="card">🏯 Rajasthan Heritage - ₹9999 (4N/5D)</div>
+    </div>
+  </div>
+
+  <div class="section contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="card-container">
+      <div class="card">
+        <p><strong>📞 Phone:</strong> 7387069404</p>
+        <p><strong>✉️ Email:</strong> shreetravels@gamil.com</p>
+        <p><strong>📍 Location:</strong> Maharashtra, India</p>
+        <p><a href="https://wa.me/917387069404">💬 Chat on WhatsApp</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="about">
+    <h2>About Us</h2>
+    <div class="card-container">
+      <div class="card">
+        <p>This travel website is developed and maintained by:</p>
+        <ul>
+          <li><strong>Rishikesh Shelke</strong></li>
+          <li><strong>Onkar Thorat</strong></li>
+          <li><strong>Niraj Gawai</strong></li>
+        </ul>
+        <p>We aim to provide affordable and unforgettable travel experiences across India and beyond!</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Shree Travels. All rights reserved.</p>
+    <div class="owner-info">
+      Owners: Rishikesh Shelke | Niraj Gawai | Onkar Thorat
+    </div>
+  </footer>
+</body>
+</html>
